@@ -14,10 +14,11 @@ The dataset comprises of actual information obtained from https://www.dineout.co
 The dataset was acquired using **web scraping** with BeautifulSoup. It has **7533** rows with **8** features.   
 
 ## Problem Statement
-With smaller staff, capital and costing requirements, the restaurant business is on a consistent rise. Identifying a successful restaurant demands more than customer ratings. Ratings, cuisines, cost and location all are vital to determine a restaurant's success. 
+With smaller staff, capital and costing requirements, the restaurant business is on a consistent rise. Ratings, cuisines, cost and location all are vital to determine a restaurant's success. Nevertheless, awareness of these features is very challenging.   
 
+Furthermore, awareness of customer behaviour is essential. 
 
-The dataset is a record of ratings, cost and location of all Dineout restaurants in India.
+Identifying a successful restaurant demands more than customer ratings. 
 
 Marketing a product or a service is very challenging. Identifying the right customer is vital for the marketing team. This can significantly reduce the resources and time. Furthermore, this allows the team to position the product correctly. Unfortunately, finding the right customer can be exhaustive and complicated. There are many features to consider and huge data to analyze. Thus conventionally; the marketing team relies on experience of the marketing experts and feedback of team. 
 
