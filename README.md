@@ -76,4 +76,4 @@ pip install -r requirements.txt
 ```
 
 ## Run Project
-The notebooks provided in **notebooks** section run easily with Jupyter Notebook or Google Colab   
+The notebooks are provided in **notebooks** section. These run easily with Jupyter Notebook or Google Colab   
