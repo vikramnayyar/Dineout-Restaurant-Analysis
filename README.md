@@ -28,7 +28,7 @@ This work was performed as a personal project. The motivation was to obtain exha
 
 
 
-[<img target="_blank" src="https://upload.wikimedia.org/wikipedia/commons/e/ed/Pandas_logo.svg" width=200>](https://pandas.pydata.org/)     [<img target="_blank" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/NumPy_logo_2020.svg/512px-NumPy_logo_2020.svg.png" width=200>](https://numpy.org/)     [<img target="_blank" src="https://www.fullstackpython.com/img/logos/scipy.png" width=200>](https://www.scipy.org/)                    
+[<img target="_blank" src="https://upload.wikimedia.org/wikipedia/commons/e/ed/Pandas_logo.svg" width=200>](https://pandas.pydata.org/)     [<img target="_blank" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/NumPy_logo_2020.svg/512px-NumPy_logo_2020.svg.png" width=200>](https://numpy.org/)     [<img target="_blank" src="https://funthon.files.wordpress.com/2017/05/bs.png?w=772" width=200>](https://www.scipy.org/)                    
 
 
 ## Directory Structure
@@ -44,23 +44,23 @@ This work was performed as a personal project. The motivation was to obtain exha
 |  ├── web_scraping.ipynb                          # Web scraping notebook
 ├── visualizations                                 # Analysis visualizations
 |  ├── 01-rating-distribution.png                  # Restaurant rating distribution 
-|  ├── 02-cost-dstribution.png                     # Balance vs deposit figure
-|  ├── 03-votes-distribution.png                   # Education vs deposit figure
-|  ├── 04-restnts-across-states.png                # Job vs deposit figure 
-|  ├── 05-restnts-across-cities.png                # Marital vs deposit figure
-|  ├── 06-rating-comparison-of-states.png          # Dataset balance figure
-|  ├── 07-rating-comparison-of-cities.png          # Correalation heatmap of features
-|  ├── 08-cost-across-states.png                   # Feature importance of best model
-|  ├── 09-cost-across-cities.png                   # Confusion matrix of ExtraTreesClassifier
-|  ├── 10-votes-across-states.png                  # Confusion matrix of GradientBoostClassifier
-|  ├── 11-votes-across-cities.png                  # Confusion matrix of LightGBMClassifier
-|  ├── 12-comprehensive-comparison-of-states.png   # Confusion matrix of RandomForestClassifier
+|  ├── 02-cost-dstribution.png                     # Restaurant cost distribution
+|  ├── 03-votes-distribution.png                   # Restaurant votes distribution
+|  ├── 04-restnts-across-states.png                # Restaurant distribution across Indian states 
+|  ├── 05-restnts-across-cities.png                # Restaurant distribution across Indian cities
+|  ├── 06-rating-comparison-of-states.png          # Rating comparison of states
+|  ├── 07-rating-comparison-of-cities.png          # Rating comparison of cities
+|  ├── 08-cost-across-states.png                   # Restaurant cost distribution across states
+|  ├── 09-cost-across-cities.png                   # Restaurant cost distribution across cities
+|  ├── 10-votes-across-states.png                  # Restaurant votes distribution across states
+|  ├── 11-votes-across-cities.png                  # Restaurant votes distribution across cities
+|  ├── 12-comprehensive-comparison-of-states.png   # Performance comparison of all states   
 |  ├── 13-top-cuisines-distribution.png            # Confusion matrix of XGBClassifier  
-|  ├── 14-top-cuisines-comparison.png              # Confusion matrix of CatBoostClassifier
-|  ├── 15-favorite-cuisines-in-India.png           # Confusion matrix of optimized CatBoostClassifier
-|  ├── 16-top-localities-Maharashtra.png           # Confusion matrix of optimized CatBoostClassifier
-|  ├── 17-top-localities-Delhi.png                 # Confusion matrix of optimized CatBoostClassifier
-|  ├── 18-top-localities-Karnataka.png             # Confusion matrix of optimized CatBoostClassifier
+|  ├── 14-top-cuisines-comparison.png              # Top cuisines of respective states
+|  ├── 15-favorite-cuisines-in-India.png           # Favourite cuisines in India
+|  ├── 16-top-localities-Maharashtra.png           # Top localities in Maharashtra
+|  ├── 17-top-localities-Delhi.png                 # Top localities in Delhi
+|  ├── 18-top-localities-Karnataka.png             # Top localities in Karnataka
 ├── LICENSE                                        # License
 ├── README.md                                      # Repository description
 ├── requirements.txt                               # Required libraries
@@ -76,21 +76,4 @@ pip install -r requirements.txt
 ```
 
 ## Run Project
-As discussed in **Technical Aspect** section, "src" and “app” directory possess the main scripts. 
-
-Running the following command in the "src" directory executes the entire project  
-```bash
-python3 run_project.py
-```
-Alternatively, a project script can be individually executed using the general script 
-```bash
-python3 script.py
-```
-Here “script.py” represents any python script. 
-
-Exceptionally, application file "app.py" runs using command 
-```bash
-streamlit run app/app.py
-```
-**Note:** To run any project script, directory location must be correct.
-   
+The notebooks provided in **notebooks** section run easily with Jupyter Notebook or Google Colab   
