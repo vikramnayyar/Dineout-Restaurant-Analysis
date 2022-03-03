@@ -14,20 +14,18 @@ The dataset comprises of actual information obtained from https://www.dineout.co
 The dataset was acquired using **web scraping** with BeautifulSoup. It has **7533** rows with **8** features.   
 
 ## Problem Statement
-With smaller staff, capital and costing requirements, the restaurant business is on a consistent rise. Ratings, cuisines, cost and location all are vital to determine a restaurant's success. Nevertheless, awareness of these features is very challenging.   
+With smaller staff, capital and costing requirements, the restaurant business is on a consistent rise. Ratings, cuisines, cost and location all are vital to determine a restaurant's success. 
 
-Furthermore, awareness of customer behaviour is essential. 
+Nevertheless, awareness of these features is very challenging. Several online platforms provide restaurant reviews and ratings, but; various types of information like cuisine preferences, locality performance etc. remain unidentified. As; awareness of customer behaviour is essential, identifying a successful restaurant business becomes challenging. 
 
-Identifying a successful restaurant demands more than customer ratings. 
-
-Marketing a product or a service is very challenging. Identifying the right customer is vital for the marketing team. This can significantly reduce the resources and time. Furthermore, this allows the team to position the product correctly. Unfortunately, finding the right customer can be exhaustive and complicated. There are many features to consider and huge data to analyze. Thus conventionally; the marketing team relies on experience of the marketing experts and feedback of team. 
-
-Due to vast facts originating from so many features; a mistake in identification of customer is inevitable. Missing a customer segment results as a loss to the institution. On contrary, identifying wrong segment of customers will result in wastage of resources and time (As faults in strategy is confirmed at a later stage). 
-
-Therefore, such a project is vital for product marketing. 
+Therefore, a proper restaurant analysis is necessary to disclose the coverted insights of restaurant business. Thus, such a project is vital for restarant business. 
 
 ## Goal
-This work was performed as a personal project. The motivation was to obtain analysis of bank marketing campaign and identify customers that will make term deposits. For highest possible term deposits, a high accuracy was desirable for customer classification.   
+This work was performed as a personal project. The motivation was to obtain exhaustive analysis of Indian restaurant business. Regional performance and customer behaviour 
+
+The notebook comprehensively evaluates regional performance and customer behaviour. 
+
+analysis of bank marketing campaign and identify customers that will make term deposits. For highest possible term deposits, a high accuracy was desirable for customer classification.   
 
 An app classifying depositing customers, provides a very straightforward and intuitive means for identifying customers. This saves substantial <b>resources</b> and <b>time</b>. Also, this apporach is easily reproducible, thus; provides a <b>common</b> marketing platform to all the marketing teams and bank branches. The app will be utilized by the marketing team for accurate customer selection. Reduced errors in identifying customers will <b>increase</b> the bank deposits. 
 
