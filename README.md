@@ -21,7 +21,7 @@ Nevertheless, awareness of these features is very challenging. Several online pl
 Therefore, a proper restaurant analysis is necessary to disclose the coverted insights of restaurant business. Thus, such a project is vital for restarant business. 
 
 ## Goal
-This work was performed as a personal project. The motivation was to obtain exhaustive analysis of Indian restaurant business. Regional performance and customer behaviour of all Indian Dineout restaurants is obtained. About 9 types of comprehensive analysis are obtained. 
+This work was performed as a personal project. The motivation was to obtain exhaustive analysis of Indian restaurant business. Regional performance and customer behaviour of all Indian Dineout restaurants is obtained. About 9 types of comprehensive analysis are accomplished. 
 
 ## System Environment
 ![](https://forthebadge.com/images/badges/made-with-python.svg)
@@ -34,59 +34,36 @@ This work was performed as a personal project. The motivation was to obtain exha
 ## Directory Structure
 
 ```bash
-├── app                              # Application files
-|  ├── app.py                        # Application script
-├── config                           # Configuration files
-|  ├── config.yaml                   # Configuration file  
-├── data                             # Data files ()   
-|  ├── bank.csv                      # Bank customer dataset 
-|  ├── clean_data.csv                # Cleaned dataset 
-|  ├── prepared_data.csv             # Prepared dataset 
-|  ├── train_set.csv                 # Train data
-|  ├── test_set.csv                  # Test data
-|  ├── train_label.csv               # Train labels
-|  ├── test_set.csv                  # Test labels
-├── log                              # Log files
-|  ├── get_data.log                  # "get_data.py" script logs
-|  ├── data_analysis.log             # "data_analysis.py" script logs
-|  ├── prepare_data.log              # "prepare_data.py" script logs 
-|  ├── split_data.log                # "split_data.py" script logs 
-|  ├── model_data.log                # "model_data.py" script logs 
-├── model                            # Model Files
-|  ├── model.pkl                     # Saved model
-├── src                              # Main project scripts 
-|  ├── get_data.py                   # Dataset acquistion and cleaning script
-|  ├── get_data_util.py              # script declaring utility functions for get_data.py 
-|  ├── data_analysis.py              # Dataset analysis and visualization script
-|  ├── data_anlaysis_util.py         # script declaring utility functions for data_analysis.py 
-|  ├── prepare_data.py               # Dataset preperation script
-|  ├── prepare_data_util.py          # script declaring utility functions for prepare_data.py 
-|  ├── split_data.py                 # Dataset splitting script  
-|  ├── split_data_util.py            # script declaring utility functions for split_data.py 
-|  ├── model_data.py                 # Dataset modelling script
-|  ├── model_data_util.py            # script declaring utility functions for model_data.py 
-|  ├── utility.py                       # script declaring general utility functions  
-├── visualizations                   # Dataset visualizations
-|  ├── age_vs_deposit.png            # Age vs deposit figure
-|  ├── bal_vs_deposit.png            # Balance vs deposit figure
-|  ├── education_vs_deposit.png      # Education vs deposit figure
-|  ├── job_vs_deposit.png            # Job vs deposit figure 
-|  ├── marital_vs_deposit.png        # Marital vs deposit figure
-|  ├── dataset_balance.png           # Dataset balance figure
-|  ├── correlation_heatmap.png       # Correalation heatmap of features
-|  ├── feature_importance.png        # Feature importance of best model
-|  ├── cm_etc.png                    # Confusion matrix of ExtraTreesClassifier
-|  ├── cm_gbc.png                    # Confusion matrix of GradientBoostClassifier
-|  ├── cm_lgbm.png                   # Confusion matrix of LightGBMClassifier
-|  ├── cm_rfc.png                    # Confusion matrix of RandomForestClassifier
-|  ├── cm_xgb.png                    # Confusion matrix of XGBClassifier  
-|  ├── cm_cbc.png                    # Confusion matrix of CatBoostClassifier
-|  ├── cm_optimized_cbc.png          # Confusion matrix of optimized CatBoostClassifier
-├── requirements.txt                 # Required libraries
-├── Procfile                         # Required for Heroku deployment 
-├── setup.sh                         # Required for Heroku deployment
-├── LICENSE                          # License
-├── README.md                        # Repository description
+├── data                                           # Data files    
+|  ├── all_restnt_details.json                     # Details of all restaurants (Web scraping output) 
+|  ├── all_restnt_urls.csv                         # Links of all Dinoeut restaurants in India 
+|  ├── clean_data.csv                              # Cleaned dataset 
+|  ├── raw_set.csv                                 # Raw dataset (Web scraping output)
+├── notebooks                                      # Main project files
+|  ├── data_analysis.ipynb                         # Data analysis notebook
+|  ├── web_scraping.ipynb                          # Web scraping notebook
+├── visualizations                                 # Analysis visualizations
+|  ├── 01-rating-distribution.png                  # Restaurant rating distribution 
+|  ├── 02-cost-dstribution.png                     # Balance vs deposit figure
+|  ├── 03-votes-distribution.png                   # Education vs deposit figure
+|  ├── 04-restnts-across-states.png                # Job vs deposit figure 
+|  ├── 05-restnts-across-cities.png                # Marital vs deposit figure
+|  ├── 06-rating-comparison-of-states.png          # Dataset balance figure
+|  ├── 07-rating-comparison-of-cities.png          # Correalation heatmap of features
+|  ├── 08-cost-across-states.png                   # Feature importance of best model
+|  ├── 09-cost-across-cities.png                   # Confusion matrix of ExtraTreesClassifier
+|  ├── 10-votes-across-states.png                  # Confusion matrix of GradientBoostClassifier
+|  ├── 11-votes-across-cities.png                  # Confusion matrix of LightGBMClassifier
+|  ├── 12-comprehensive-comparison-of-states.png   # Confusion matrix of RandomForestClassifier
+|  ├── 13-top-cuisines-distribution.png            # Confusion matrix of XGBClassifier  
+|  ├── 14-top-cuisines-comparison.png              # Confusion matrix of CatBoostClassifier
+|  ├── 15-favorite-cuisines-in-India.png           # Confusion matrix of optimized CatBoostClassifier
+|  ├── 16-top-localities-Maharashtra.png           # Confusion matrix of optimized CatBoostClassifier
+|  ├── 17-top-localities-Delhi.png                 # Confusion matrix of optimized CatBoostClassifier
+|  ├── 18-top-localities-Karnataka.png             # Confusion matrix of optimized CatBoostClassifier
+├── LICENSE                                        # License
+├── README.md                                      # Repository description
+├── requirements.txt                               # Required libraries
 
 ```
 
