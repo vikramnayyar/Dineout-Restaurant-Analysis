@@ -28,7 +28,7 @@ This work was performed as a personal project. The motivation was to obtain exha
 
 
 
-[<img target="_blank" src="https://upload.wikimedia.org/wikipedia/commons/e/ed/Pandas_logo.svg" width=200>](https://pandas.pydata.org/)     [<img target="_blank" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/NumPy_logo_2020.svg/512px-NumPy_logo_2020.svg.png" width=200>](https://numpy.org/)     [<img target="_blank" src="https://funthon.files.wordpress.com/2017/05/bs.png?w=772" width=200>](https://www.scipy.org/)                    
+  [<img target="_blank" src="https://upload.wikimedia.org/wikipedia/commons/e/ed/Pandas_logo.svg" width=200>](https://pandas.pydata.org/)     [<img target="_blank" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/NumPy_logo_2020.svg/512px-NumPy_logo_2020.svg.png" width=200>](https://numpy.org/)     [<img target="_blank" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Plotly-logo-01-square.png/1200px-Plotly-logo-01-square.png" width=200>](https://plotly.com/)     [<img target="_blank" src="https://funthon.files.wordpress.com/2017/05/bs.png?w=772" width=200>](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)     [<img target="_blank" src="https://docs.python-requests.org/en/latest/_static/requests-sidebar.png" width=200>](https://docs.python-requests.org/en/latest/)                    
 
 
 ## Directory Structure
