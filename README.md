@@ -1,7 +1,7 @@
 # Dineout Restaurant Analysis
 
 ## Demo
-The analysis is depicted in link ________________________________ 
+The analysis is depicted in link: https://www.kaggle.com/code/vikram92/eda-for-all-dineout-restaurants-in-india-plotly#Question-#2:-How-are-average-ratings-distributed-across-India?
 
 ## Introduction
 An analysis is done on https://www.dineout.co.in/. Thus, entire Indian Dineout restaurants are analyzed. Extracting several vital informations, more than **20** visualizations are very suitably plotted.     
