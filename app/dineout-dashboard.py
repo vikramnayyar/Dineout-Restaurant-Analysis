@@ -1,17 +1,19 @@
+# deployment: https://dataviz.shef.ac.uk/blog/03/07/2020/Deploy-Your-Dash-App
+
 #%% Importing libraries
-from tkinter import OFF
+# from tkinter import OFF
 import dash
 from dash import dcc
 from dash import html
 from dash.dependencies import Output, Input
 
-from matplotlib.pyplot import figure
+# from matplotlib.pyplot import figure
 import plotly.express as px
 import plotly.graph_objects as go
 
 import dash_bootstrap_components as dbc
 import pandas as pd
-import pandas_datareader.data as web
+# import pandas_datareader.data as web
 
 
 #%% 
@@ -78,7 +80,7 @@ app.layout = dbc.Container([
     
     dbc.Row([
         dbc.Col([
-            dcc.Dropdown(id='selected_feature', multi=False, value=['Bengal'],
+            dcc.Dropdown(id='selected_feature', multi=False, value='Bengal',
                         options=[{'label':x, 'value':x}
                                 for x in sorted(df_state['State'].unique())],
                         ),            
