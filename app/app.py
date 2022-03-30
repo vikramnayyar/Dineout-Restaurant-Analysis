@@ -33,8 +33,7 @@ app = dash.Dash(__name__, external_stylesheets=[dbc.themes.LUX],
                 meta_tags=[{'name': 'viewport',
                             'content': 'width=device-width, initial-scale=1.0'}]
                 )
-
-
+server = app.server   # added as deployment was not working
 
 # styling the sidebar
 SIDEBAR_STYLE = {
@@ -393,4 +392,5 @@ def update_graph(selected_feature):
 
 # %%
 if __name__=='__main__':
-    app.run_server(debug=True, port=8000)
+    # app.run_server(debug=True, port=8000)   # use this for local deployment
+    app.run_server(debug=True)    # port should not be alloted to heroku 
