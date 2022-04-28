@@ -71,10 +71,18 @@ This work was performed as a personal project. The motivation was to obtain exha
 ## Installing Dependencies
 Foremost running the project, installing the dependencies is essential. 
 * Ensure Python 3.8.8 or later is installed in the system. 
+* Clone the repository 
+```bash
+git clone https://github.com/vikramnayyar/Dineout-Restaurant-Analysis
+```
 * All required libraries are listed in "requirements.txt". These are easily installed; by running the following command in project directory
 ```bash
 pip install -r requirements.txt
 ```
 
 ## Run Project
-The notebooks are provided in **notebooks** section. These run easily with Jupyter Notebook or Google Colab   
+* Run the dashboard 
+```bash
+python3 app/app.py
+```
+* Optional: The notebooks are provided in **notebooks** section. These run easily with Jupyter Notebook or Google Colab   
